@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.pytest_cache/
+data/*.sqlite
+data/*.db
+reports/generated/
+
+
+# Raw/full Olist source data and scratch notebooks: only the prebuilt
+# data/olist.sqlite is needed at runtime (SQL engine) and Neo4j Aura is
+# queried live, so the large raw CSVs don't need to ship with the app.
+data/olist/*.csv
+data/olist/*.ipynb
+tmp/
