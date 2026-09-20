@@ -14,3 +14,7 @@ reports/generated/
 data/olist/*.csv
 data/olist/*.ipynb
 tmp/
+DAY4_REPORT.md
+design-qa.md
+HEALTH_CHECK.md
+PLAN.md
