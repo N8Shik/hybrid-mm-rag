@@ -18,3 +18,22 @@ DAY4_REPORT.md
 design-qa.md
 HEALTH_CHECK.md
 PLAN.md
+
+# Local Streamlit secrets (if you ever use `.streamlit/secrets.toml` instead
+# of .env to test live mode) — holds real API keys, must never be committed.
+# .streamlit/config.toml (theme, if you add one) is fine to keep tracked.
+.streamlit/secrets.toml
+
+# Editor/OS cruft
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build artifacts from `pip install -e .`
+*.egg-info/
+build/
+dist/
+
+# Jupyter checkpoint folders
+**/.ipynb_checkpoints/
